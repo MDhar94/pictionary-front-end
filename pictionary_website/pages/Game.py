@@ -181,7 +181,7 @@ def another_game():
     col3.write("")  # Empty column
 
 #trying to add in prediction
-predict_url = "http://localhost:8080/predict"
+predict_url = "https://pictionary-ai-mdhar-7yfni3vqyq-uc.a.run.app/predict"
 
 post_dict = resampling_time_post(json_drawing)
 
